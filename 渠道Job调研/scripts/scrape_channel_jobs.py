@@ -16,7 +16,7 @@ from playwright.sync_api import sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCREENSHOT_DIR = ROOT / "screenshots" / "channel_jobs"
+SCREENSHOT_DIR = ROOT / "screenshots"
 DATA_DIR = ROOT / "data"
 
 
@@ -316,6 +316,8 @@ def write_markdown(results: list[Result], output: Path) -> None:
         f"# 渠道 Job 岗位 / 项目数量 Scraping 统计（{date.today().isoformat()}）",
         "",
         "统计说明：本文件由 `scripts/scrape_channel_jobs.py` 基于 `渠道Job搜索清单.md` 生成；使用浏览器抓取公开页面并保存核心页面截图。若页面要求登录、触发 WAF/CAPTCHA、地区限制或未公开显示总数，则不推测数字。",
+        "",
+        "附件：核心页面截图统一保存于 `screenshots/`；结构化抓取结果保存于 `data/` 目录。",
         "",
         "| 平台 | 关键词 | 类型 | 状态 | 公开数 | 证据片段 | 截图 | 来源 |",
         "| --- | --- | --- | --- | ---: | --- | --- | --- |",

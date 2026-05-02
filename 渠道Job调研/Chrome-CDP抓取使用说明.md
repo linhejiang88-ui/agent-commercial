@@ -1,6 +1,6 @@
 # Chrome CDP 抓取使用说明
 
-本文说明 `scripts/scrape_channel_jobs.py --cdp-url` 的工作方式和使用流程。适用于复用已经打开的真实 Chrome，处理 Cloudflare、登录态、Cookie、地区跳转等无头浏览器容易失败的页面。
+本文说明 `渠道Job调研/scripts/scrape_channel_jobs.py --cdp-url` 的工作方式和使用流程。适用于复用已经打开的真实 Chrome，处理 Cloudflare、登录态、Cookie、地区跳转等无头浏览器容易失败的页面。
 
 ## 1. 工作方式
 
@@ -82,10 +82,11 @@ curl -sS http://127.0.0.1:9222/json/version
 
 ## 5. 全量抓取
 
-运行：
+从仓库根目录进入渠道 Job 调研目录后运行：
 
 ```bash
-.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
+cd 渠道Job调研
+../.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
   --cdp-url http://127.0.0.1:9222 \
   --wait-ms 5000
 ```
@@ -94,7 +95,7 @@ curl -sS http://127.0.0.1:9222/json/version
 
 - `data/channel_job_scrape_YYYY-MM-DD.json`
 - `渠道Job岗位数Scraping统计-YYYY-MM-DD.md`
-- `screenshots/channel_jobs/*.png`
+- `screenshots/*.png`
 
 `--wait-ms 5000` 表示每个页面加载后额外等待 5 秒，给动态内容、验证跳转和结果数渲染留时间。
 
@@ -103,7 +104,7 @@ curl -sS http://127.0.0.1:9222/json/version
 如果只想补抓 Upwork：
 
 ```bash
-.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
+../.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
   --cdp-url http://127.0.0.1:9222 \
   --platform "Upwork Jobs" \
   --wait-ms 5000
@@ -112,7 +113,7 @@ curl -sS http://127.0.0.1:9222/json/version
 可重复传入多个平台：
 
 ```bash
-.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
+../.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
   --cdp-url http://127.0.0.1:9222 \
   --platform "Upwork Jobs" \
   --platform "Fiverr" \
@@ -135,7 +136,7 @@ curl -sS http://127.0.0.1:9222/json/version
 调试时不要直接跑全量，可以先限制条数：
 
 ```bash
-.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
+../.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
   --cdp-url http://127.0.0.1:9222 \
   --platform "Upwork Jobs" \
   --limit 2 \
@@ -151,7 +152,7 @@ curl -sS http://127.0.0.1:9222/json/version
 为了不覆盖主报告，可以指定输出文件：
 
 ```bash
-.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
+../.venv-scrapling/bin/python scripts/scrape_channel_jobs.py \
   --cdp-url http://127.0.0.1:9222 \
   --wait-ms 5000 \
   --json data/channel_job_scrape_cdp_2026-05-02.json \

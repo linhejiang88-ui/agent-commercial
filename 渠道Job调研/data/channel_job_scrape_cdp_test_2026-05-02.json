@@ -8,7 +8,7 @@
     "status": "http_403",
     "count": "",
     "evidence": "请稍候… 验证成功。正在等待 www.upwork.com 响应 Cloudflare Ray ID: 9f54c18dac5a0432 Your IP: 39.158.48.214 © 2015 - 2026 Upwork® Global Inc.",
-    "screenshot": "screenshots/channel_jobs/01-upwork-jobs-ai-agent.png",
+    "screenshot": "screenshots/01-upwork-jobs-ai-agent.png",
     "title": "请稍候…",
     "note": ""
   },
@@ -21,7 +21,7 @@
     "status": "http_403",
     "count": "",
     "evidence": "请稍候… 验证成功。正在等待 www.upwork.com 响应 Cloudflare Ray ID: 9f54c1bcaefb0432 Your IP: 39.158.48.214 © 2015 - 2026 Upwork® Global Inc.",
-    "screenshot": "screenshots/channel_jobs/02-upwork-jobs-llm-engineer.png",
+    "screenshot": "screenshots/02-upwork-jobs-llm-engineer.png",
     "title": "请稍候…",
     "note": ""
   }
