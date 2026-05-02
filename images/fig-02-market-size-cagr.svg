@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .h{font:700 26px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .n{font:800 38px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#0f172a}
+      .t{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#475569}
+      .small{font:400 16px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+      .badge{font:700 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">软件外包、AI Agent 与 AI 咨询市场规模及增速对比</text>
+  <text class="sub" x="80" y="124">规模使用不同预测周期，图中重点比较“基本盘规模”和“新增机会增速”。单位：亿美元。</text>
+
+  <g transform="translate(80 185)">
+    <rect width="390" height="520" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="390" height="12" rx="6" fill="#2563eb"/>
+    <text class="h" x="30" y="60">软件开发外包</text>
+    <text class="t" x="30" y="96">最大基本盘，增速稳定</text>
+    <text class="n" x="30" y="160">6183.8</text>
+    <text class="t" x="30" y="190">2026 年市场规模</text>
+    <text class="n" x="30" y="270">9770.4</text>
+    <text class="t" x="30" y="300">2031 年预测规模</text>
+    <rect x="30" y="340" width="210" height="48" rx="24" fill="#2563eb"/>
+    <text class="badge" x="55" y="371">CAGR 9.60%</text>
+    <rect x="30" y="430" width="300" height="18" rx="9" fill="#dbeafe"/>
+    <rect x="30" y="430" width="300" height="18" rx="9" fill="#2563eb"/>
+    <text class="small" x="30" y="475">规模大，但通用开发和人天外包承压。</text>
+  </g>
+
+  <g transform="translate(505 185)">
+    <rect width="390" height="520" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="390" height="12" rx="6" fill="#0f766e"/>
+    <text class="h" x="30" y="60">AI Agent</text>
+    <text class="t" x="30" y="96">增长最快的技术交付方向</text>
+    <text class="n" x="30" y="160">118</text>
+    <text class="t" x="30" y="190">2026 年市场规模</text>
+    <text class="n" x="30" y="270">2224</text>
+    <text class="t" x="30" y="300">2035 年预测规模</text>
+    <rect x="30" y="340" width="230" height="48" rx="24" fill="#0f766e"/>
+    <text class="badge" x="55" y="371">CAGR 38.6%</text>
+    <rect x="30" y="430" width="300" height="18" rx="9" fill="#ccfbf1"/>
+    <rect x="30" y="430" width="108" height="18" rx="9" fill="#0f766e"/>
+    <text class="small" x="30" y="475">适合知识库、流程自动化、客服销售辅助。</text>
+  </g>
+
+  <g transform="translate(930 185)">
+    <rect width="390" height="520" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="390" height="12" rx="6" fill="#7c3aed"/>
+    <text class="h" x="30" y="60">AI 咨询服务</text>
+    <text class="t" x="30" y="96">高信任入口，带动实施和运维</text>
+    <text class="n" x="30" y="160">140.8</text>
+    <text class="t" x="30" y="190">2026 年市场规模</text>
+    <text class="n" x="30" y="270">1168</text>
+    <text class="t" x="30" y="300">2035 年预测规模</text>
+    <rect x="30" y="340" width="242" height="48" rx="24" fill="#7c3aed"/>
+    <text class="badge" x="55" y="371">CAGR 26.49%</text>
+    <rect x="30" y="430" width="300" height="18" rx="9" fill="#ede9fe"/>
+    <rect x="30" y="430" width="132" height="18" rx="9" fill="#7c3aed"/>
+    <text class="small" x="30" y="475">适合用诊断、PoC、治理切入客户。</text>
+  </g>
+
+  <text class="small" x="80" y="790">来源：Mordor Intelligence、Vynz Research、Business Research Insights。预测周期不同，图中不作同周期 CAGR 直接比较。</text>
+</svg>

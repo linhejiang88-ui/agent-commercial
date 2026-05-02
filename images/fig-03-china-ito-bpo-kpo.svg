@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .axis{font:400 16px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+      .label{font:700 24px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .value{font:800 34px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#0f172a}
+      .text{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#475569}
+      .badge{font:700 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">2026 年初中国离岸服务外包结构分化</text>
+  <text class="sub" x="80" y="124">执行额体现基本盘，同比增速体现短期机会方向。数据口径：2026 年 1-2 月离岸服务外包执行额。</text>
+
+  <g transform="translate(120 210)">
+    <line x1="0" y1="420" x2="1120" y2="420" stroke="#cbd5e1"/>
+    <line x1="0" y1="0" x2="0" y2="420" stroke="#cbd5e1"/>
+    <text class="axis" x="-15" y="424" text-anchor="end">0</text>
+    <text class="axis" x="-15" y="284" text-anchor="end">200</text>
+    <text class="axis" x="-15" y="144" text-anchor="end">400</text>
+    <line x1="0" y1="280" x2="1120" y2="280" stroke="#e2e8f0"/>
+    <line x1="0" y1="140" x2="1120" y2="140" stroke="#e2e8f0"/>
+
+    <g transform="translate(110 0)">
+      <rect x="0" y="87" width="210" height="333" rx="10" fill="#2563eb"/>
+      <text class="label" x="105" y="465" text-anchor="middle">ITO</text>
+      <text class="value" x="105" y="66" text-anchor="middle">476.2</text>
+      <rect x="43" y="500" width="124" height="42" rx="21" fill="#dc2626"/>
+      <text class="badge" x="105" y="528" text-anchor="middle">-7.8%</text>
+      <text class="text" x="105" y="580" text-anchor="middle">基本盘最大，但短期承压</text>
+    </g>
+
+    <g transform="translate(455 0)">
+      <rect x="0" y="253" width="210" height="167" rx="10" fill="#0f766e"/>
+      <text class="label" x="105" y="465" text-anchor="middle">BPO</text>
+      <text class="value" x="105" y="232" text-anchor="middle">238.4</text>
+      <rect x="38" y="500" width="134" height="42" rx="21" fill="#16a34a"/>
+      <text class="badge" x="105" y="528" text-anchor="middle">+12.4%</text>
+      <text class="text" x="105" y="580" text-anchor="middle">流程自动化机会最明确</text>
+    </g>
+
+    <g transform="translate(800 0)">
+      <rect x="0" y="182" width="210" height="238" rx="10" fill="#7c3aed"/>
+      <text class="label" x="105" y="465" text-anchor="middle">KPO</text>
+      <text class="value" x="105" y="161" text-anchor="middle">340.4</text>
+      <rect x="43" y="500" width="124" height="42" rx="21" fill="#f97316"/>
+      <text class="badge" x="105" y="528" text-anchor="middle">-1.2%</text>
+      <text class="text" x="105" y="580" text-anchor="middle">体量高，适合知识增强</text>
+    </g>
+  </g>
+
+  <text class="axis" x="105" y="185" transform="rotate(-90 105 185)">执行额（亿元）</text>
+  <text class="axis" x="80" y="820">来源：商务部服务贸易指南网。图中柱形为执行额，圆角标签为同比增速。</text>
+</svg>

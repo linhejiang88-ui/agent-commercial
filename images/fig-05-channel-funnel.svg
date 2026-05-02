@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .h{font:700 25px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .t{font:400 19px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#eaf2ff}
+      .label{font:700 22px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .note{font:400 17px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">技术外包获客渠道的角色分工</text>
+  <text class="sub" x="80" y="124">不要把渠道简单看成订单来源，应区分需求验证、信任建立、转化和复购。</text>
+
+  <g transform="translate(220 190)">
+    <path d="M0 0 H960 L870 105 H90 Z" fill="#2563eb"/>
+    <text class="h" x="480" y="43" text-anchor="middle">国际平台：验证海外 AI 需求</text>
+    <text class="t" x="480" y="78" text-anchor="middle">Upwork AI-related work GSV 年化超过 3 亿美元，AI Integration &amp; Automation 同比超过 90%</text>
+
+    <path d="M90 130 H870 L780 235 H180 Z" fill="#0f766e"/>
+    <text class="h" x="480" y="173" text-anchor="middle">内容营销与案例：提前建立专业信任</text>
+    <text class="t" x="480" y="208" text-anchor="middle">用真实流程拆解、Demo、开源项目和案例文章降低客户判断成本</text>
+
+    <path d="M180 260 H780 L690 365 H270 Z" fill="#7c3aed"/>
+    <text class="h" x="480" y="303" text-anchor="middle">私域转介绍：高信任、高转化、高复购</text>
+    <text class="t" x="480" y="338" text-anchor="middle">适合 AI 咨询、PoC、系统改造和长期托管运营</text>
+
+    <path d="M270 390 H690 L620 495 H340 Z" fill="#f97316"/>
+    <text class="h" x="480" y="433" text-anchor="middle">线下活动 / 园区 / 招投标</text>
+    <text class="t" x="480" y="468" text-anchor="middle">适合本地企业、政企场景和长期合作</text>
+  </g>
+
+  <g transform="translate(80 720)">
+    <rect width="1240" height="78" rx="14" fill="#fff" stroke="#d9e2ec"/>
+    <text class="label" x="30" y="33">渠道策略：</text>
+    <text class="note" x="145" y="33">平台做需求验证，内容做信任沉淀，私域和线下完成高质量转化。</text>
+    <text class="note" x="145" y="61">不建议画成收入占比，因为公开数据不足；更适合看“线索质量 x 转化周期 x 客单价潜力”。</text>
+  </g>
+</svg>

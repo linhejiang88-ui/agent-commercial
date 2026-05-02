@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .phase{font:800 30px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .h{font:700 25px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .t{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#334155}
+      .small{font:400 17px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">3 人团队 AI 外包业务 12 个月路线图</text>
+  <text class="sub" x="80" y="124">从接单能力建设，到行业模板沉淀，再到托管运营和持续收入。</text>
+
+  <line x1="160" y1="280" x2="1240" y2="280" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="250" cy="280" r="42" fill="#2563eb"/>
+  <circle cx="650" cy="280" r="42" fill="#0f766e"/>
+  <circle cx="1050" cy="280" r="42" fill="#7c3aed"/>
+  <text class="phase" x="250" y="291" text-anchor="middle">1</text>
+  <text class="phase" x="650" y="291" text-anchor="middle">2</text>
+  <text class="phase" x="1050" y="291" text-anchor="middle">3</text>
+
+  <g transform="translate(110 360)">
+    <rect width="360" height="310" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="360" height="68" rx="18" fill="#2563eb"/>
+    <text class="phase" x="180" y="45" text-anchor="middle">1-3 个月</text>
+    <text class="h" x="30" y="115">目标：验证服务包</text>
+    <text class="t" x="30" y="160">做 AI 诊断模板</text>
+    <text class="t" x="30" y="195">做 2-3 个 Demo 案例</text>
+    <text class="t" x="30" y="230">测试 Upwork / 私域渠道</text>
+    <text class="t" x="30" y="265">形成 PoC 报价边界</text>
+  </g>
+
+  <g transform="translate(520 360)">
+    <rect width="360" height="310" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="360" height="68" rx="18" fill="#0f766e"/>
+    <text class="phase" x="180" y="45" text-anchor="middle">3-6 个月</text>
+    <text class="h" x="30" y="115">目标：沉淀行业模板</text>
+    <text class="t" x="30" y="160">聚焦 1-2 个行业场景</text>
+    <text class="t" x="30" y="195">复用 Agent / RAG 组件</text>
+    <text class="t" x="30" y="230">建立交付检查清单</text>
+    <text class="t" x="30" y="265">推动客户转介绍</text>
+  </g>
+
+  <g transform="translate(930 360)">
+    <rect width="360" height="310" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="360" height="68" rx="18" fill="#7c3aed"/>
+    <text class="phase" x="180" y="45" text-anchor="middle">6-12 个月</text>
+    <text class="h" x="30" y="115">目标：形成持续收入</text>
+    <text class="t" x="30" y="160">推出托管运营包</text>
+    <text class="t" x="30" y="195">按月做效果复盘</text>
+    <text class="t" x="30" y="230">提高客单价和续费率</text>
+    <text class="t" x="30" y="265">沉淀垂直解决方案</text>
+  </g>
+
+  <rect x="110" y="735" width="1180" height="70" rx="14" fill="#fff" stroke="#d9e2ec"/>
+  <text class="small" x="145" y="776">经营主线：先卖诊断和 PoC，再卖 Agent 实施，最后用托管运营把一次性项目变成持续收入。</text>
+</svg>

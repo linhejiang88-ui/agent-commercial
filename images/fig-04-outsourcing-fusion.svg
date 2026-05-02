@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .h{font:700 26px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .t{font:400 19px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#334155}
+      .white{font:700 26px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .small{font:400 17px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">AI Agent 与 AI 咨询如何横跨 ITO、BPO、KPO</text>
+  <text class="sub" x="80" y="124">AI 服务的价值来自跨分类整合：既要懂系统，也要懂流程和知识。</text>
+
+  <g opacity="0.88">
+    <circle cx="520" cy="430" r="245" fill="#bfdbfe"/>
+    <circle cx="700" cy="430" r="245" fill="#ccfbf1"/>
+    <circle cx="610" cy="575" r="245" fill="#ede9fe"/>
+  </g>
+
+  <text class="h" x="365" y="305">ITO</text>
+  <text class="t" x="315" y="340">系统开发</text>
+  <text class="t" x="315" y="370">接口集成</text>
+  <text class="t" x="315" y="400">部署运维</text>
+
+  <text class="h" x="795" y="305">BPO</text>
+  <text class="t" x="790" y="340">客服流程</text>
+  <text class="t" x="790" y="370">工单流转</text>
+  <text class="t" x="790" y="400">运营自动化</text>
+
+  <text class="h" x="570" y="755">KPO</text>
+  <text class="t" x="500" y="785">知识整理、数据分析、辅助决策</text>
+
+  <rect x="500" y="430" width="400" height="92" rx="18" fill="#0f766e"/>
+  <text class="white" x="700" y="468" text-anchor="middle">AI Agent</text>
+  <text class="t" x="700" y="500" text-anchor="middle" fill="#e6fffb">连接工具、知识和业务流程，完成任务</text>
+
+  <rect x="365" y="545" width="490" height="96" rx="18" fill="#7c3aed"/>
+  <text class="white" x="610" y="583" text-anchor="middle">AI 咨询服务</text>
+  <text class="t" x="610" y="615" text-anchor="middle" fill="#f4f0ff">诊断、PoC、治理、实施辅导、托管运营</text>
+
+  <g transform="translate(1010 250)">
+    <rect width="300" height="330" rx="16" fill="#fff" stroke="#d9e2ec"/>
+    <text class="h" x="28" y="55">关键判断</text>
+    <text class="t" x="28" y="100">1. 单纯开发容易压价</text>
+    <text class="t" x="28" y="145">2. 单纯咨询难复购</text>
+    <text class="t" x="28" y="190">3. Agent 必须接流程</text>
+    <text class="t" x="28" y="235">4. 托管运营带来月费</text>
+    <text class="t" x="28" y="280">5. 组合服务最适合小团队</text>
+  </g>
+
+  <text class="small" x="80" y="820">说明：本图为分析框架图，用于解释 AI Agent 与 AI 咨询的跨外包类型属性。</text>
+</svg>

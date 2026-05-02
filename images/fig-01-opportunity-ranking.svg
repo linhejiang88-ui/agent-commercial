@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 44px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 22px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .label{font:700 28px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .text{font:400 22px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#334155}
+      .rank{font:800 32px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .note{font:400 18px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="90">2026 年 3 人团队技术外包机会排序</text>
+  <text class="sub" x="80" y="130">结论：优先把 AI 咨询作为入口，把 Agent 实施和托管运营作为收入主线。</text>
+
+  <g transform="translate(80 190)">
+    <rect x="0" y="0" width="1240" height="126" rx="14" fill="#0f766e"/>
+    <circle cx="68" cy="63" r="35" fill="#14b8a6"/>
+    <text class="rank" x="50" y="74">1</text>
+    <text class="label" x="130" y="52" fill="#fff">最大机会：AI 咨询 + AI Agent 实施 + 托管运营</text>
+    <text class="text" x="130" y="91" fill="#dffcf7">诊断建立信任，PoC 降低决策风险，实施和月度优化形成持续收入。</text>
+  </g>
+
+  <g transform="translate(80 345)">
+    <rect x="0" y="0" width="1100" height="116" rx="14" fill="#2563eb"/>
+    <circle cx="68" cy="58" r="32" fill="#60a5fa"/>
+    <text class="rank" x="50" y="69">2</text>
+    <text class="label" x="130" y="49" fill="#fff">次优机会：BPO 流程自动化 + 存量系统 AI 化改造</text>
+    <text class="text" x="130" y="86" fill="#e0edff">客户已有系统、数据和流程，ROI 更容易解释，项目更容易转维护费。</text>
+  </g>
+
+  <g transform="translate(80 490)">
+    <rect x="0" y="0" width="960" height="106" rx="14" fill="#7c3aed"/>
+    <circle cx="68" cy="53" r="30" fill="#a78bfa"/>
+    <text class="rank" x="50" y="64">3</text>
+    <text class="label" x="130" y="47" fill="#fff">可做机会：AI 辅助数据分析 / KPO 增强</text>
+    <text class="text" x="130" y="82" fill="#f0e7ff">作为 Agent 项目的上游数据治理和下游效果评估模块。</text>
+  </g>
+
+  <g transform="translate(80 625)">
+    <rect x="0" y="0" width="820" height="104" rx="14" fill="#64748b"/>
+    <circle cx="68" cy="52" r="29" fill="#94a3b8"/>
+    <text class="rank" x="50" y="63">4</text>
+    <text class="label" x="130" y="45" fill="#fff">低优先级：纯软件开发、人天外包、简单 Bot</text>
+    <text class="text" x="130" y="80" fill="#eef2f7">规模不小，但价格竞争强、复购弱，AI Coding 会持续压缩利润。</text>
+  </g>
+
+  <rect x="80" y="785" width="1240" height="58" rx="12" fill="#fff" stroke="#d9e2ec"/>
+  <text class="note" x="110" y="821">建议服务包：AI 诊断 + 场景筛选 + 单场景 PoC + Agent 实施 + 月度托管优化。</text>
+</svg>

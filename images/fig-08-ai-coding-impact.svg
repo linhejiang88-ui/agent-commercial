@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .head{font:700 27px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .h{font:700 24px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .t{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#334155}
+      .small{font:400 17px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">AI Coding 对三类外包业务的影响差异</text>
+  <text class="sub" x="80" y="124">AI Coding 不是简单提高开发速度，而是在改变客户购买外包服务的对象。</text>
+
+  <g transform="translate(80 190)">
+    <rect width="390" height="520" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="390" height="82" rx="18" fill="#2563eb"/>
+    <text class="head" x="195" y="52" text-anchor="middle">ITO：技术外包</text>
+    <text class="h" x="35" y="130">主要冲击</text>
+    <text class="t" x="35" y="170">标准化开发、基础编码、</text>
+    <text class="t" x="35" y="202">测试和低门槛维护被压价。</text>
+    <text class="h" x="35" y="270">剩余机会</text>
+    <text class="t" x="35" y="310">系统集成、行业定制、</text>
+    <text class="t" x="35" y="342">AI 原生应用和存量改造。</text>
+    <text class="h" x="35" y="410">团队动作</text>
+    <text class="t" x="35" y="450">少卖工时，多卖模块、</text>
+    <text class="t" x="35" y="482">上线结果和维护服务。</text>
+  </g>
+
+  <g transform="translate(505 190)">
+    <rect width="390" height="520" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="390" height="82" rx="18" fill="#0f766e"/>
+    <text class="head" x="195" y="52" text-anchor="middle">BPO：流程外包</text>
+    <text class="h" x="35" y="130">主要变化</text>
+    <text class="t" x="35" y="170">流程执行从“人做”转向</text>
+    <text class="t" x="35" y="202">“人机协同运营”。</text>
+    <text class="h" x="35" y="270">剩余机会</text>
+    <text class="t" x="35" y="310">客服、工单、审批、</text>
+    <text class="t" x="35" y="342">销售线索和运营自动化。</text>
+    <text class="h" x="35" y="410">团队动作</text>
+    <text class="t" x="35" y="450">围绕流程节省时间、</text>
+    <text class="t" x="35" y="482">降低返工和提升响应报价。</text>
+  </g>
+
+  <g transform="translate(930 190)">
+    <rect width="390" height="520" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <rect width="390" height="82" rx="18" fill="#7c3aed"/>
+    <text class="head" x="195" y="52" text-anchor="middle">KPO：知识外包</text>
+    <text class="h" x="35" y="130">主要冲击</text>
+    <text class="t" x="35" y="170">低端资料整理、摘要和</text>
+    <text class="t" x="35" y="202">简单分析被快速替代。</text>
+    <text class="h" x="35" y="270">剩余机会</text>
+    <text class="t" x="35" y="310">高验证密度研究、</text>
+    <text class="t" x="35" y="342">行业知识库和决策辅助。</text>
+    <text class="h" x="35" y="410">团队动作</text>
+    <text class="t" x="35" y="450">把分析能力接入 Agent，</text>
+    <text class="t" x="35" y="482">形成可审计知识流程。</text>
+  </g>
+
+  <rect x="80" y="765" width="1240" height="58" rx="12" fill="#fff" stroke="#d9e2ec"/>
+  <text class="small" x="110" y="801">结论：AI Coding 会压缩低端工时价值，但会抬高“业务理解 + 系统集成 + 持续运营”的复合能力价值。</text>
+</svg>

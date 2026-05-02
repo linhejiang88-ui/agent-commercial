@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}.title{font:700 42px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .sub{font:400 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#5a667a}
+      .h{font:700 24px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .t{font:400 18px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .fee{font:700 20px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#152033}
+      .small{font:400 17px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;fill:#64748b}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="85">AI 咨询服务从诊断到托管运营的交付链路</text>
+  <text class="sub" x="80" y="124">前端卖咨询，中段卖实施，后端用托管优化形成月费。</text>
+
+  <g transform="translate(80 220)">
+    <g>
+      <rect width="160" height="110" rx="16" fill="#2563eb"/>
+      <text class="h" x="80" y="48" text-anchor="middle">AI 诊断</text>
+      <text class="t" x="80" y="82" text-anchor="middle">流程盘点</text>
+    </g>
+    <line x1="170" y1="55" x2="210" y2="55" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(220 0)">
+      <rect width="160" height="110" rx="16" fill="#0f766e"/>
+      <text class="h" x="80" y="48" text-anchor="middle">场景筛选</text>
+      <text class="t" x="80" y="82" text-anchor="middle">优先级排序</text>
+    </g>
+    <line x1="390" y1="55" x2="430" y2="55" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(440 0)">
+      <rect width="160" height="110" rx="16" fill="#7c3aed"/>
+      <text class="h" x="80" y="48" text-anchor="middle">ROI 评估</text>
+      <text class="t" x="80" y="82" text-anchor="middle">验收指标</text>
+    </g>
+    <line x1="610" y1="55" x2="650" y2="55" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(660 0)">
+      <rect width="160" height="110" rx="16" fill="#f97316"/>
+      <text class="h" x="80" y="48" text-anchor="middle">PoC / MVP</text>
+      <text class="t" x="80" y="82" text-anchor="middle">小范围验证</text>
+    </g>
+    <line x1="830" y1="55" x2="870" y2="55" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(880 0)">
+      <rect width="170" height="110" rx="16" fill="#0e7490"/>
+      <text class="h" x="85" y="48" text-anchor="middle">Agent / RAG</text>
+      <text class="t" x="85" y="82" text-anchor="middle">系统实施</text>
+    </g>
+    <line x1="1060" y1="55" x2="1100" y2="55" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(1110 0)">
+      <rect width="170" height="110" rx="16" fill="#be123c"/>
+      <text class="h" x="85" y="48" text-anchor="middle">托管优化</text>
+      <text class="t" x="85" y="82" text-anchor="middle">月度复盘</text>
+    </g>
+  </g>
+
+  <g transform="translate(120 430)">
+    <rect width="1160" height="200" rx="18" fill="#fff" stroke="#d9e2ec"/>
+    <text class="fee" x="70" y="60">收费结构</text>
+    <text class="fee" x="245" y="60">诊断费</text>
+    <text class="small" x="245" y="95">低门槛切入，建立信任</text>
+    <text class="fee" x="455" y="60">PoC 实施费</text>
+    <text class="small" x="455" y="95">验证价值，明确验收</text>
+    <text class="fee" x="705" y="60">上线部署费</text>
+    <text class="small" x="705" y="95">完成系统集成和培训</text>
+    <text class="fee" x="940" y="60">月度维护费</text>
+    <text class="small" x="940" y="95">知识更新、成本优化、效果评估</text>
+    <line x1="210" y1="135" x2="1080" y2="135" stroke="#cbd5e1" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="245" cy="135" r="14" fill="#2563eb"/>
+    <circle cx="455" cy="135" r="14" fill="#f97316"/>
+    <circle cx="705" cy="135" r="14" fill="#0e7490"/>
+    <circle cx="940" cy="135" r="14" fill="#be123c"/>
+  </g>
+
+  <text class="small" x="80" y="790">关键点：不要只卖报告，也不要只卖开发。把咨询、实施和运营绑定起来，才能形成复购。</text>
+</svg>
