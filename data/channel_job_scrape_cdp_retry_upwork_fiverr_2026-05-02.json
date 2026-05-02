@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-05-02",
+    "platform": "Fiverr",
+    "keyword": "custom GPT",
+    "stat_type": "services proxy",
+    "url": "https://www.fiverr.com/search/gigs?query=custom+GPT",
+    "status": "count_found_with_login_prompt",
+    "count": "694",
+    "evidence": "rvice options Seller details Budget Delivery time Pro services Instant response 694 results Sort by: Relevance F Fahad S Level 2 I will build and integrate custom gpt in your website using openai assistants API ",
+    "screenshot": "screenshots/channel_jobs/01-fiverr-custom-gpt.png",
+    "title": "Fiverr / Search Results for 'custom GPT'",
+    "note": "gig search"
+  },
+  {
+    "date": "2026-05-02",
+    "platform": "Upwork Jobs",
+    "keyword": "AI category",
+    "stat_type": "projects proxy",
+    "url": "https://www.upwork.com/freelance-jobs/ai/",
+    "status": "http_403",
+    "count": "",
+    "evidence": "AI Freelance Jobs: Work Remote & Earn Online ___ Skip to content Upwork home Sign up Back to main navigation Close main navigation Hire freelancers Admin & support AI & emerging tech Design & creative Development & tech Marketing Video, audio & animation Writi",
+    "screenshot": "screenshots/channel_jobs/02-upwork-jobs-ai-category.png",
+    "title": "AI Freelance Jobs: Work Remote & Earn Online",
+    "note": "category proxy"
+  },
+  {
+    "date": "2026-05-02",
+    "platform": "Upwork Jobs",
+    "keyword": "Automation category",
+    "stat_type": "projects proxy",
+    "url": "https://www.upwork.com/freelance-jobs/automation/",
+    "status": "no_count_found",
+    "count": "",
+    "evidence": "Sign up for Upwork | Client & Freelancer Accounts Upwork home Join as a client or freelancer Account type selection I'm a client, hiring for a project I'm a freelancer, looking for work Apply as a Freelancer Already have an account? Log In This site employs da",
+    "screenshot": "screenshots/channel_jobs/03-upwork-jobs-automation-category.png",
+    "title": "Sign up for Upwork | Client & Freelancer Accounts",
+    "note": "category proxy"
+  },
+  {
+    "date": "2026-05-02",
+    "platform": "Fiverr",
+    "keyword": "AI Development category",
+    "stat_type": "services proxy",
+    "url": "https://www.fiverr.com/categories/programming-tech/ai-coding",
+    "status": "count_found_with_login_prompt",
+    "count": "16,000+",
+    "evidence": "rvice options Seller details Budget Delivery time Pro services Instant response 16,000+ results Sort by: Best selling S Saeed Ahmad Level 2 I will create chatgpt, ai chatbot, openai app or ai app 5.0 ( 15 ) From US$",
+    "screenshot": "screenshots/channel_jobs/04-fiverr-ai-development-category.png",
+    "title": "AI coding and development services | Fiverr",
+    "note": "category proxy"
+  }
+]
