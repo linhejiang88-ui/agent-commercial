@@ -4,9 +4,7 @@
 
 This repository is a document workspace, not an application codebase. The root contains the primary market reports and navigation documents:
 
-- `2026年软件及AI-Agent外包及咨询市场分析报告.md`
 - `2026年软件及AI-Agent外包及咨询市场分析报告（插图版）.md`
-- `2026年软件开发、数据分析与AI-Agent外包及咨询市场深度分析报告.md`
 - `2025-2026四大接单平台数据分析报告.md`
 - `README.md`
 - `报告插图规划.md`
@@ -71,7 +69,7 @@ For handoff or review, include:
 
 ## Source & Editing Notes
 
-Do not introduce unsupported market figures or anecdotal percentages without a citable source. Prefer updating both reports consistently when the same structural section appears in each file.
+Do not introduce unsupported market figures or anecdotal percentages without a citable source. The illustrated report is the canonical market report; keep duplicated draft reports out of the root unless the user explicitly asks for a separate variant.
 
 For channel job scraping updates, prefer the CDP report as the main record:
 
