@@ -1,0 +1,83 @@
+[
+  {
+    "priority": "P0",
+    "source": "Reddit",
+    "signal_type": "需求信号",
+    "validates": ["用户痛点", "求推荐", "替代方案", "预算抱怨"],
+    "opportunity_fit": ["AI 自动化服务", "垂直工具", "内容产品"],
+    "collection": "官方 API 或人工抽样；不做高频爬取",
+    "first_queries": ["AI automation small business", "n8n workflow", "AI receptionist", "programmatic SEO AI"]
+  },
+  {
+    "priority": "P0",
+    "source": "Hacker News",
+    "signal_type": "需求信号",
+    "validates": ["开发者评价", "工具缺陷", "定价争议", "开源替代"],
+    "opportunity_fit": ["Developer tools", "AI agent infra", "开源转商业"],
+    "collection": "HN Algolia API 或人工复核",
+    "first_queries": ["AI automation", "agent workflow", "n8n", "RAG"]
+  },
+  {
+    "priority": "P0",
+    "source": "GitHub",
+    "signal_type": "供给信号",
+    "validates": ["开源热度", "可复用组件", "issue 痛点", "社区活跃度"],
+    "opportunity_fit": ["workflow 模板", "Agent 框架", "RAG 工具", "托管服务"],
+    "collection": "GitHub REST Search / Web 搜索",
+    "first_queries": ["topic:ai-agent stars:>500", "n8n workflow ai", "rag chatbot", "ai automation"]
+  },
+  {
+    "priority": "P0",
+    "source": "Product Hunt",
+    "signal_type": "产品信号",
+    "validates": ["新产品定位", "投票", "评论", "竞品话术"],
+    "opportunity_fit": ["AI 微 SaaS", "插件", "模板", "Newsletter"],
+    "collection": "Product Hunt API 或人工抽样；商业用途需确认权限",
+    "first_queries": ["AI automation", "AI agent", "AI SEO", "AI newsletter"]
+  },
+  {
+    "priority": "P1",
+    "source": "Acquire.com / Flippa",
+    "signal_type": "付费信号",
+    "validates": ["收入", "利润", "售价", "行业", "技术栈"],
+    "opportunity_fit": ["小 SaaS", "内容站", "Chrome 插件", "模板站"],
+    "collection": "账号内人工抽样，保存截图和字段",
+    "first_queries": ["AI SaaS", "Chrome extension", "newsletter", "SEO"]
+  },
+  {
+    "priority": "P1",
+    "source": "G2 / Capterra",
+    "signal_type": "付费信号",
+    "validates": ["企业差评", "替代需求", "集成痛点", "价格不满"],
+    "opportunity_fit": ["B2B AI 自动化", "垂直 SaaS", "集成服务"],
+    "collection": "API 或公开评论人工抽样",
+    "first_queries": ["CRM automation", "customer support AI", "workflow automation", "reporting automation"]
+  },
+  {
+    "priority": "P1",
+    "source": "Google Trends / Keyword Planner",
+    "signal_type": "搜索信号",
+    "validates": ["搜索需求", "地域", "季节性", "相关关键词"],
+    "opportunity_fit": ["SEO 独立站", "内容产品", "获客主题"],
+    "collection": "人工导出或 Google Ads API",
+    "first_queries": ["AI receptionist", "n8n automation", "AI SEO", "AI email templates"]
+  },
+  {
+    "priority": "P2",
+    "source": "Stack Overflow / Stack Exchange",
+    "signal_type": "需求信号",
+    "validates": ["开发者卡点", "集成问题", "技术需求频率"],
+    "opportunity_fit": ["API 集成", "自动化脚本", "开发工具", "教程产品"],
+    "collection": "Stack Exchange API 或 Web 搜索",
+    "first_queries": ["OpenAI API", "n8n", "webhook", "vector database"]
+  },
+  {
+    "priority": "P2",
+    "source": "Chrome / Shopify / Slack / Atlassian Marketplace",
+    "signal_type": "产品信号",
+    "validates": ["插件生态", "评分", "评论", "竞品密度"],
+    "opportunity_fit": ["浏览器插件", "Shopify AI 工具", "团队协作 bot"],
+    "collection": "公开页面抽样或平台 API",
+    "first_queries": ["AI assistant", "SEO AI", "support bot", "workflow automation"]
+  }
+]

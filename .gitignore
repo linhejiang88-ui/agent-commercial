@@ -1,4 +1,5 @@
 .DS_Store
 .venv-scrapling/
 .venv_scrapling/
+.chrome-x-scrape/
 __pycache__/

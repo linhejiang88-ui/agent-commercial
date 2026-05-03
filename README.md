@@ -51,22 +51,40 @@
 | 图 8 | [`images/fig-08-ai-coding-impact.svg`](images/fig-08-ai-coding-impact.svg) | AI Coding 对 ITO / BPO / KPO 的影响。 |
 | 图 9 | [`images/fig-09-12-month-roadmap.svg`](images/fig-09-12-month-roadmap.svg) | 3 人团队 12 个月执行路线图。 |
 
-## 4. 辅助文档
+## 4. X 内容调研
+
+| 文件 / 目录 | 用途 |
+| --- | --- |
+| [`X内容调研/X_AI赚钱分享扩展分析-2026-05-03.md`](X内容调研/X_AI赚钱分享扩展分析-2026-05-03.md) | 基于低频 CDP 采集的 X 上 AI 赚钱分享方向、热度和可信度分析。 |
+| [`X内容调研/X抓取使用说明.md`](X内容调研/X抓取使用说明.md) | X 公开内容采集说明；无 API 时使用 Chrome CDP 低频采集，有 API 时可用 Recent Search。 |
+| [`X内容调研/X内容搜索清单.md`](X内容调研/X内容搜索清单.md) | 商业化查询语句、统计模板和复核口径。 |
+| [`X内容调研/scripts/scrape_x_cdp.py`](X内容调研/scripts/scrape_x_cdp.py) | 连接已登录 Chrome CDP，低频采集 X Top 搜索页并生成 JSON / Markdown。 |
+| [`X内容调研/scripts/scrape_x_posts.py`](X内容调研/scripts/scrape_x_posts.py) | 使用 X API Recent Search 抓取公开 Posts 的备用脚本。 |
+| [`X内容调研/data/`](X内容调研/data/) | X 查询清单、CDP 采集结果、API 原始 JSONL 和清洗后的结构化 JSON。 |
+| [`X内容调研/screenshots/`](X内容调研/screenshots/) | 高价值 X 帖截图证据。 |
+
+## 5. 辅助文档
 
 | 文档 | 用途 |
 | --- | --- |
 | [`如何接单.md`](如何接单.md) | 接单方法、渠道动作和执行建议。 |
+| [`商业化机会数据源清单.md`](商业化机会数据源清单.md) | 后续寻找 AI / AI 工具商业化机会时可补充采集的数据源、字段和打分口径。 |
+| [`GitHub机会调研/GitHub商业化机会分析-2026-05-03.md`](GitHub机会调研/GitHub商业化机会分析-2026-05-03.md) | 基于 GitHub Search API 的 AI / 自动化 / RAG / 插件开源项目机会粗筛。 |
+| [`GitHub机会调研/GitHub机会调研使用说明.md`](GitHub机会调研/GitHub机会调研使用说明.md) | 如何配置 `GITHUB_TOKEN`、运行 GitHub 机会分析脚本和复核结果。 |
 | [`AGENTS.md`](AGENTS.md) | 本工作区写作、验证和维护规则。 |
 
-## 5. 推荐阅读顺序
+## 6. 推荐阅读顺序
 
 1. 先读 [`2026年软件及AI-Agent外包及咨询市场分析报告（插图版）.md`](2026年软件及AI-Agent外包及咨询市场分析报告（插图版）.md)，快速理解核心结论和图表。
 2. 再读 [`2025-2026四大接单平台数据分析报告.md`](2025-2026四大接单平台数据分析报告.md)，理解 Upwork、Fiverr、程序员客栈、猪八戒的渠道差异。
 3. 查看 [`渠道Job岗位数Scraping统计-CDP-2026-05-02.md`](渠道Job调研/渠道Job岗位数Scraping统计-CDP-2026-05-02.md) 和 [`渠道Job调研/screenshots/`](渠道Job调研/screenshots/)，核对平台关键词数量和截图证据。
 4. 如需复跑或补抓，按 [`Chrome-CDP抓取使用说明.md`](渠道Job调研/Chrome-CDP抓取使用说明.md) 操作。
-5. 如需调整图表或扩展正文，再参考 [`报告插图规划.md`](报告插图规划.md)。
+5. 如需补充 X 市场信号，按 [`X内容调研/X抓取使用说明.md`](X内容调研/X抓取使用说明.md) 操作。
+6. 如需继续扩展商业化机会研究，再读 [`商业化机会数据源清单.md`](商业化机会数据源清单.md)。
+7. 如需验证开源项目和可复用资产，再读 [`GitHub商业化机会分析-2026-05-03.md`](GitHub机会调研/GitHub商业化机会分析-2026-05-03.md)。
+8. 如需调整图表或扩展正文，再参考 [`报告插图规划.md`](报告插图规划.md)。
 
-## 6. 本地校验命令
+## 7. 本地校验命令
 
 ```bash
 rg -n "^## |^### " .
@@ -74,9 +92,10 @@ rg -n "TODO|待补充|TBD" .
 for f in images/*.svg; do xmllint --noout "$f" || exit 1; done
 ```
 
-## 7. 维护约定
+## 8. 维护约定
 
 - 主报告统一维护插图版，不在根目录保留重复草稿。
 - 渠道岗位数优先采用 CDP 统计报告；普通抓取和补抓文件只作为过程证据。
 - 渠道 Job 新增截图统一放入 `渠道Job调研/screenshots/`；报告插图和其他主题图片放入 `images/<topic>/` 或 `images/`。
+- X 内容新增截图统一放入 `X内容调研/screenshots/`；API 原始响应和清洗结果放入 `X内容调研/data/`。
 - 不将 `.venv-*`、`.DS_Store`、`__pycache__/` 等本地生成文件纳入版本管理。

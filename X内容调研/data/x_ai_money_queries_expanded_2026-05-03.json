@@ -1,0 +1,62 @@
+[
+  {
+    "name": "AI 自动化服务收入",
+    "query": "(\"AI automation\" OR \"n8n\" OR \"Make.com\") (\"clients\" OR \"revenue\" OR \"MRR\" OR \"$\") (\"workflow\" OR \"agency\" OR \"case study\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI 自动化服务"
+  },
+  {
+    "name": "AI Agent 产品收入",
+    "query": "(\"AI agent\" OR \"AI agents\") (\"I built\" OR \"I launched\" OR \"revenue\" OR \"MRR\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI Agent 产品"
+  },
+  {
+    "name": "AI 微型 SaaS",
+    "query": "(\"AI SaaS\" OR \"micro SaaS\") (\"MRR\" OR \"revenue\" OR \"users\" OR \"launched\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI 微型 SaaS"
+  },
+  {
+    "name": "AI 模板和 Prompt 产品",
+    "query": "(\"AI templates\" OR \"AI prompts\" OR \"prompt pack\") (\"sold\" OR \"revenue\" OR \"customers\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI 模板/Prompt"
+  },
+  {
+    "name": "AI Newsletter 变现",
+    "query": "(\"AI newsletter\" OR \"newsletter about AI\") (\"revenue\" OR \"sponsors\" OR \"subscribers\" OR \"MRR\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI Newsletter"
+  },
+  {
+    "name": "AI 电子书和课程",
+    "query": "(\"AI ebook\" OR \"AI course\") (\"sold\" OR \"revenue\" OR \"students\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI 课程/电子书"
+  },
+  {
+    "name": "Faceless AI 内容",
+    "query": "(\"faceless\" OR \"faceless YouTube\") (\"AI\" OR \"automation\") (\"revenue\" OR \"views\" OR \"monetized\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI 内容号"
+  },
+  {
+    "name": "AI SEO 独立站",
+    "query": "(\"AI SEO\" OR \"programmatic SEO\") (\"revenue\" OR \"traffic\" OR \"AdSense\" OR \"affiliate\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI SEO/独立站"
+  },
+  {
+    "name": "AI Chrome 插件",
+    "query": "(\"AI Chrome extension\" OR \"Chrome extension\") (\"revenue\" OR \"users\" OR \"MRR\" OR \"sold\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI 插件"
+  },
+  {
+    "name": "AI App Store 产品",
+    "query": "(\"AI app\" OR \"AI mobile app\") (\"revenue\" OR \"downloads\" OR \"MRR\" OR \"launched\" OR \"$\") -giveaway -airdrop -hiring -jobs",
+    "topic": "AI App"
+  },
+  {
+    "name": "中文 AI 副业复盘",
+    "query": "(\"AI副业\" OR \"AI赚钱\" OR \"用AI赚钱\") (\"复盘\" OR \"收入\" OR \"变现\" OR \"独立站\" OR \"工具\") -抽奖 -空投 -招聘",
+    "topic": "中文 AI 副业"
+  },
+  {
+    "name": "中文 AI 自动化接单",
+    "query": "(\"AI自动化\" OR \"n8n\" OR \"工作流\") (\"接单\" OR \"客户\" OR \"收入\" OR \"报价\" OR \"复盘\") -抽奖 -空投 -招聘",
+    "topic": "中文 AI 自动化"
+  }
+]
